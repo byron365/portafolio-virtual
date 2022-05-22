@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.transition{
+  transition: all .5s;
+}
+.txt-center{
+  text-align: center;
+}
+/*Estilos del navbar*/
+nav{
+  width: 98%;
+  margin: 5px auto;
+  border-bottom: 2px solid #00b894;
+}
+nav a{
+  border-bottom: 2px solid transparent;
+}
+
+.green-ligth:hover{
+  border-bottom: 2px solid #00b894;
+  color: #00b894;
+}
+
+/*Estilos de los parrafos*/
+.description-grey{
+  text-align: justify;
+  color: rgb(73, 72, 72);
+}
+
+/*Estilos de contenedores*/
+.card{
+  border: none;
+  /* border: 1px solid #00b894; */
+  min-height: 85vh;
+}
+
+.card-complete{
+  min-height: 95vh;
+}
+
+/*Estilos del boton de deslizar*/
+#btn-slide{
+  position: fixed;
+  bottom: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  border: none;
+  opacity: 0.3;
+  background-color: transparent;
+  border-top: 2px solid transparent;
+  border-radius: 0;
+}
+#btn-slide:hover{
+  opacity: 1;
+  border-top: 5px solid #00b894;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 0px 0px 10px 10px;
+}
+#btn-slide i {
+  width: 100%;
+  animation-name: goDown;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.disapear i{
+  color: transparent;
+}
+@keyframes goDown {
+  from{
+    transform: translateY(-5px);
+  }to{
+    transform: translateY(5px);
+  }
+}
+
+/*Estilos de las categorias y tablas*/
+.category-item{
+  text-align: center;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  color: black;
+  margin-top: 1rem;
+  background-color: white;
+}
+.category-item:hover{
+  border-left: 5px solid #00b894;
+  border-right: 5px solid #00b894;
+  background-color: white;
+  color: black;
+}
+.category-item > h3:hover{
+  color: #00b894;
+}
+.btnTool{
+  color: #00b894;
+  border-bottom: 2px solid transparent;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+.btnTool:hover{
+  color: #00b894;
+  border-bottom: 2px solid #00b894;
+}
+small{
+  color: grey;
+}
+.canvas{
+  width: 100vw !important;
+  border-right:2rem solid #00b894 !important ;
+}
+.offcanvas-body  img{
+  width: 70%;
+  margin: 1em;
+}
+.exel-img{
+  width: 60%;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+/*Estilos del apartado de las funciones*/
+.tbodyFunc{
+  text-align: justify;
+}

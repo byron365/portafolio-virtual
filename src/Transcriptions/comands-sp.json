@@ -1,0 +1,1050 @@
+[
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Portapapeles",
+  "Herramienta": "Pegar",
+  "Comando": "Ctrl + V",
+  "Descripción": "Pega contenido del portapapeles.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993786/Gifs/copiar-cortar-pegar_ybtah1.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Portapapeles",
+  "Herramienta": "Cortar",
+  "Comando": "Ctrl + X",
+  "Descripción": "Pega contenido del portapapeles y elimina el contenido de la posición anterior.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993786/Gifs/copiar-cortar-pegar_ybtah1.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Portapapeles",
+  "Herramienta": "Copiar",
+  "Comando": "Ctrl + C",
+  "Descripción": "Coloca una copia de la selección en el porta papeles para poder pegarla en otro sitio.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993786/Gifs/copiar-cortar-pegar_ybtah1.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Portapapeles",
+  "Herramienta": "Copiar formato",
+  "Comando": "Sin comando",
+  "Descripción": "Copia el formato de una celda (estilos) y lo puede aplicar en otras celdas, al presionar dos veces puede usar ese mismo estilo en varias celdas a la vez.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993785/Gifs/copiar-formato_fupnrv.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Fuente",
+  "Comando": "Sin comando",
+  "Descripción": "Permite elegir el tipo de fuente que se aplicara a una o más celdas en el documento.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993784/Gifs/tipo-tama%C3%B1o-de-letra_mafxxf.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Tamaño de fuente",
+  "Comando": "Sin comando",
+  "Descripción": "Cambia el tamaño del texto.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993784/Gifs/tipo-tama%C3%B1o-de-letra_mafxxf.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Aumentar tamaño fuente",
+  "Comando": "Sin comando",
+  "Descripción": "Aumenta el tamaño de la fuente en +1",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993784/Gifs/tipo-tama%C3%B1o-de-letra_mafxxf.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Disminuir tamaño de fuente",
+  "Comando": "Sin comando",
+  "Descripción": "Disminuye el tamaño de la fuente en -1",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993784/Gifs/tipo-tama%C3%B1o-de-letra_mafxxf.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Negrita",
+  "Comando": "Ctrl + N",
+  "Descripción": "Aplica el modo bold o negrita en el texto seleccionado.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993789/Gifs/negrita-s-k_tsbxfu.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Cursiva",
+  "Comando": "Ctrl + K",
+  "Descripción": "Aplica el modo cursivo en el texto seleccionado.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993789/Gifs/negrita-s-k_tsbxfu.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Subrayado",
+  "Comando": "Ctrl + S",
+  "Descripción": "Aplica el modo subrayado en un texto seleccionado, se puede elegir entre subrayado simple y doble.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993789/Gifs/negrita-s-k_tsbxfu.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Bordes",
+  "Comando": "Sin comando",
+  "Descripción": "Aplica bordes a la celda o celdas seleccionada, se puede escoger entre varios tipos de borde, estilo, color y crear bordes manualmente.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/Bordes_dpxi9x.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Color de relleno",
+  "Comando": "Sin comando",
+  "Descripción": "Colorea el fonde de las celdas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993785/Gifs/color-celda-letra_xw5mwa.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Fuente",
+  "Herramienta": "Color de fuente",
+  "Comando": "Sin comando",
+  "Descripción": "Cambia el color de la fuente.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993785/Gifs/color-celda-letra_xw5mwa.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Alinear superior",
+  "Comando": "Sin comando",
+  "Descripción": "Alinea el texto en la parte superior",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/centrado_l9az64.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Alinear medio",
+  "Comando": "Sin comando",
+  "Descripción": "Alinear en el medio verticalmente.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/centrado_l9az64.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Alinear inferior",
+  "Comando": "Sin comando",
+  "Descripción": "Alinear el texto en la parte inferior.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/centrado_l9az64.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Alinear Izquierda",
+  "Comando": "Sin comando",
+  "Descripción": "Alinear el texto en el margen izquierdo",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/centrado_l9az64.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Centrar",
+  "Comando": "Sin comando",
+  "Descripción": "Alinear el texto en el centro de manera horizontal.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/centrado_l9az64.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Alinear derecha",
+  "Comando": "Sin comando",
+  "Descripción": "Alinear el texto en el margen derecho.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/centrado_l9az64.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Orientación",
+  "Comando": "Sin comando",
+  "Descripción": "Gira el texto entre un ángulo ascendente, descendente, de manera vertical etc.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993790/Gifs/sangria-orientacion_y58zjc.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Disminuir sangría",
+  "Comando": "Sin comando",
+  "Descripción": "Acerca el contenido al borde de la celda.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993790/Gifs/sangria-orientacion_y58zjc.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Aumentar sangría",
+  "Comando": "Sin comando",
+  "Descripción": "Aleja el contenido al borde de la celda.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993790/Gifs/sangria-orientacion_y58zjc.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Ajustar texto",
+  "Comando": "Sin comando",
+  "Descripción": "Muestra el texto largo de una celda de manera que pueda verse completo.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/ajustar-combinar-centrar-texto_ggfcly.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Alineación",
+  "Herramienta": "Combinar y centrar",
+  "Comando": "Sin comando",
+  "Descripción": "Combina varias celdas y centra el contenido de manera que quede una sola celda compuesta por otras.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/ajustar-combinar-centrar-texto_ggfcly.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Número",
+  "Herramienta": "Formato de número",
+  "Comando": "Sin comando",
+  "Descripción": "Permite elegir el formato de las celdas,  estas pueden ser de tipo número, texto, moneda, porcentaje, fecha etc.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Número",
+  "Herramienta": "Formato de número de contabilidad",
+  "Comando": "Sin comando",
+  "Descripción": "Aplica el formato de moneda entre los cuales puedes elegir el tipo de  moneda según el país.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993791/Gifs/numero_xbygch.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Número",
+  "Herramienta": "Estilo porcentual",
+  "Comando": "Ctrl + Máyus + %",
+  "Descripción": "Muestra el valor de la celda como un porcentaje.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993791/Gifs/numero_xbygch.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Número",
+  "Herramienta": "Estilo millares",
+  "Comando": "Sin comando",
+  "Descripción": "Muestra el estilo de las celdas con un separador de millares.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993791/Gifs/numero_xbygch.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Número",
+  "Herramienta": "Aumentar decimales",
+  "Comando": "Sin comando",
+  "Descripción": "Muestra un valor con más decimales para aumentar la precisión.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993791/Gifs/numero_xbygch.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Número",
+  "Herramienta": "Disminuir decimales",
+  "Comando": "Sin comando",
+  "Descripción": "Muestra menos decimales y redondea.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993791/Gifs/numero_xbygch.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Estilos",
+  "Herramienta": "Formato condicional",
+  "Comando": "Sin comando",
+  "Descripción": "Establece reglas aplicando estilos a celdas dada una condición ya sea de igualdad, desigualdad, comparación etc.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993785/Gifs/formato-condicional_fwjbrx.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Estilos",
+  "Herramienta": "Dar formato como tabla",
+  "Comando": "Sin comando",
+  "Descripción": "Estilos que pueden aplicarse a un conjunto de celdas para crear tablas estilizadas de manera rápida.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993786/Gifs/formato-de-tabla_ruld3p.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Estilos",
+  "Herramienta": "Estilo de celda",
+  "Comando": "Sin comando",
+  "Descripción": "Estilos rápidos para las celdas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993785/Gifs/estilos-de-celda_dulf5w.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Celdas",
+  "Herramienta": "Insertar",
+  "Comando": "Ctrl +",
+  "Descripción": "Inserta celdas, filas, columnas u hojas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993782/Gifs/celdas_mwhowv.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Celdas",
+  "Herramienta": "Eliminar",
+  "Comando": "Ctrl - ",
+  "Descripción": "Elimina celdas, filas, columnas u hojas",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993782/Gifs/celdas_mwhowv.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Celdas",
+  "Herramienta": "Formato",
+  "Comando": "Sin comando",
+  "Descripción": "Establece parámetros a las celdas, filas o columnas, tales como el ancho, largo, visibilidad u protección.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993782/Gifs/celdas_mwhowv.gif"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Edición",
+  "Herramienta": "Funciones rápidas",
+  "Comando": "Sin comando",
+  "Descripción": "Funciones de acceso rápido entre ellas, suma, promedio etc.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Edición",
+  "Herramienta": "Rellenar",
+  "Comando": "Sin comando",
+  "Descripción": "Sigue un modelo de celdas en cualquier dirección.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Edición",
+  "Herramienta": "Borrar",
+  "Comando": "Supr \/ Delete",
+  "Descripción": "Elimina el contenido de la celda, formato, comentarios o hipervínculos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Edición",
+  "Herramienta": "Ordenar y filtrar",
+  "Comando": "Sin comando",
+  "Descripción": "Ordena datos de manera ascendente, descendente o permite establecer un filtro.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Inicio",
+  "Categoría": "Edición",
+  "Herramienta": "Buscar y seleccionar",
+  "Comando": "Ctrl + B",
+  "Descripción": "Puede buscar o reemplazar un texto especifico que se encuentre en el documento.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Tablas",
+  "Herramienta": "Tabla dinámica",
+  "Comando": "Sin comando",
+  "Descripción": "Crea tablas dinámicas, las cuales permiten resumir datos complejos fácilmente.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993783/Gifs/Tabla-dinamica_tpzwon.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Tablas",
+  "Herramienta": "Tablas dinámicas recomendadas",
+  "Comando": "Sin comando",
+  "Descripción": "Excel elije la tabla dinámica más adecuada para tus datos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Tablas",
+  "Herramienta": "Tabla",
+  "Comando": "Ctrl + Q",
+  "Descripción": "Crea una tabla para analizar datos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993782/Gifs/tabla_euyhav.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Ilustraciones",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Inserta imágenes, formas, iconos, modelos 3D, capturas etc.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993789/Gifs/ilustraciones_iq0ubx.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Complementos",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Puedes potenciar Excel con herramientas extras que puedes conseguir como complementos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráficos recomendados",
+  "Comando": "Sin comando",
+  "Descripción": "Recomienda un gráfico basado en los datos seleccionados.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráfico de columnas o de barras",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un gráfico de columnas o de barras.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993788/Gifs/graf-barras_nbdwql.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráfico de líneas o de áreas",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un gráfico de líneas o de áreas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993789/Gifs/graf-lineas_sxosge.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráfico circular o de anillos",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un gráfico circular o de anillos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993787/Gifs/graf-circular_wknzby.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráfico de jerarquía",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta gráficos jerárquicos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993789/Gifs/graf-jerarquia_usobtl.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráficos de estadística",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta gráficos estadísticos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993788/Gifs/graf-estadistico_luzpjl.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráfico de dispersión o de burbuja",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta gráficos de dispersión o de burbujas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993787/Gifs/graf-burbujas_zplr98.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráfico de cascada, embudo, cotizaciones, superficie o radial",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta diferentes tipos de gráficos de tipo cascada.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993787/Gifs/graf-cascada_dnsepm.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráfico combinado",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta gráficos combinados.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993789/Gifs/graf-combinado_n8t4fv.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Mapas",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un gráfico geográfico con el cual comparar valores en una región.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Gráficos",
+  "Herramienta": "Gráfico dinámico",
+  "Comando": "Sin comando",
+  "Descripción": "Crea un gráfico dinámico capaz de resumir datos complejos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Paseos",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un mapa 3D en el cual se pueden ver datos a lo largo del tiempo.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Mini gráficos",
+  "Herramienta": "Líneas",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un mini gráfico lineal",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993790/Gifs/mini-graf_mbagnd.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Mini gráficos",
+  "Herramienta": "Columnas",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un mini gráfico de columnas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993790/Gifs/mini-graf_mbagnd.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Mini gráficos",
+  "Herramienta": "Pérdidas y ganancias",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un mini gráfico de perdidas o ganancias.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993790/Gifs/mini-graf_mbagnd.gif"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Filtros",
+  "Herramienta": "Segmentación de datos",
+  "Comando": "Sin comando",
+  "Descripción": "Crea una segmentación de datos para interactuar en ellos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Filtros",
+  "Herramienta": "Escala de tiempo",
+  "Comando": "Sin comando",
+  "Descripción": "Crea un escala de tiempo para filtrar fechas de forma interactiva.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Vínculos",
+  "Herramienta": null,
+  "Comando": "Ctrl + Alt + K",
+  "Descripción": "Crea un hipervínculo.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Texto",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Inserta cuadros de texto, encabezados, pie de página etc.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Insertar",
+  "Categoría": "Símbolos",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Inserta símbolos o ecuaciones.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652993792/Gifs/simbolos_y0xpqx.gif"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Temas",
+  "Herramienta": "Temas",
+  "Comando": "Sin comando",
+  "Descripción": "Permite cambiar  el estilo de todo documento seleccionando entre los temas disponibles.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Temas",
+  "Herramienta": "Colores",
+  "Comando": "Sin comando",
+  "Descripción": "Permite cambiar los colores del documento.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Temas",
+  "Herramienta": "Fuentes",
+  "Comando": "Sin comando",
+  "Descripción": "Permite cambiar las fuentes de todo el documento.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Temas",
+  "Herramienta": "Efectos",
+  "Comando": "Sin comando",
+  "Descripción": "Agrega efectos de forma a las figuras o celdas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Configurar página",
+  "Herramienta": "Márgenes",
+  "Comando": "Sin comando",
+  "Descripción": "Estable el tamaño  de los márgenes en el documento.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Configurar página",
+  "Herramienta": "Orientación",
+  "Comando": "Sin comando",
+  "Descripción": "Estale la orientación de la página.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Configurar página",
+  "Herramienta": "Tamaño",
+  "Comando": "Sin comando",
+  "Descripción": "Estable el tamaño del papel para el documento.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Configurar página",
+  "Herramienta": "Área de impresión",
+  "Comando": "Sin comando",
+  "Descripción": "Permite seleccionar un área para la impresión.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Configurar página",
+  "Herramienta": "Saltos",
+  "Comando": "Sin comando",
+  "Descripción": "Agrega un salto en la hoja impresa.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Configurar página",
+  "Herramienta": "Fondo",
+  "Comando": "Sin comando",
+  "Descripción": "Establece una imagen de fondo.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Configurar página",
+  "Herramienta": "Imprimir títulos",
+  "Comando": "Sin comando",
+  "Descripción": "Permite elegir las filas o columnas que desea imprimir.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Ajustar área de impresión",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Permite modificar el ancho, alto o la escala del área de la impresión.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Opción de la hoja",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Permite ocultar o visualizar las líneas de división de las celdas, o  los encabezados de las filas y columnas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Diseño Página",
+  "Categoría": "Organizar",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Permite controlar la alineación, posición y agrupación de objetos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Biblioteca de funciones",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Organiza en grupos los diferentes tipos de funciones que se pueden utilizar en Excel.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Nombres definidos",
+  "Herramienta": "Administrador de nombres",
+  "Comando": "Ctrl+ F3",
+  "Descripción": "Crea, edita, elimina, nombres, estos pueden usarse pare referenciar celdas o un grupo de ellas, con el fin de facilitar a la hora de hacer cálculos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Nombres definidos",
+  "Herramienta": "Asignar nombre",
+  "Comando": "Sin comando",
+  "Descripción": "Define y aplica nombres a una o más celdas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Nombres definidos",
+  "Herramienta": "Utilizar en la fórmula",
+  "Comando": "Sin comando",
+  "Descripción": "Inserta un nombre en una fórmula de entre los que se han creado.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Nombres definidos",
+  "Herramienta": "Crear desde la selección",
+  "Comando": "Ctrl + Máyus + F3",
+  "Descripción": "Crea un nombre a partir de una selección de celdas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Auditoria de fórmulas",
+  "Herramienta": "Rastrear precedentes",
+  "Comando": "Ctrl + F10",
+  "Descripción": "Muestra una flecha señalando la celda que afecta el valor de la celda seleccionada.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Auditoria de fórmulas",
+  "Herramienta": "Rastrear dependientes",
+  "Comando": "Sin comando",
+  "Descripción": "Muestra una flecha en las celdas afectadas por el valor de la celda seleccionada.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Auditoria de fórmulas",
+  "Herramienta": "Quitar flechas",
+  "Comando": "Sin comando",
+  "Descripción": "Quita las flechas usadas para rastrear.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Auditoria de fórmulas",
+  "Herramienta": "Mostrar fórmulas",
+  "Comando": "Ctrl + `",
+  "Descripción": "Muestra la fórmula en cada celda en lugar del valor.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Auditoria de fórmulas",
+  "Herramienta": "Comprobación de errores",
+  "Comando": "Sin comando",
+  "Descripción": "Busca errores en fórmulas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Auditoria de fórmulas",
+  "Herramienta": "Evaluar fórmulas",
+  "Comando": "Sin comando",
+  "Descripción": "Depura formulas creadas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Fórmulas",
+  "Categoría": "Cálculo",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Establece el modo de calculo entre manual y automáticamente, permite calcular automáticamente toda una hoja o un libro.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Obtener y transformar datos",
+  "Herramienta": "Obtener datos",
+  "Comando": "Sin comando",
+  "Descripción": "Importar datos desde varios origines.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Obtener y transformar datos",
+  "Herramienta": "Desde txt\/CSV",
+  "Comando": "Sin comando",
+  "Descripción": "Importe datos desde archivos txt, CSV y conviértalos a xlsx.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Obtener y transformar datos",
+  "Herramienta": "De la web",
+  "Comando": "Sin comando",
+  "Descripción": "Importar datos de una página web.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Obtener y transformar datos",
+  "Herramienta": "Desde tabla\/rango",
+  "Comando": "Sin comando",
+  "Descripción": "Vincules datos de una tabla de Excel.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Obtener y transformar datos",
+  "Herramienta": "Fuentes recientes",
+  "Comando": "Sin comando",
+  "Descripción": "Administra los orígenes recientes.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Obtener y transformar datos",
+  "Herramienta": "Conexiones existentes",
+  "Comando": "Sin comando",
+  "Descripción": "Importa datos desde orígenes comunes",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Consultas y conexiones",
+  "Herramienta": "Actualizar todo",
+  "Comando": "Ctrl + Alt + F5",
+  "Descripción": "Actualiza todos los datos provenientes de otras fuetes hacia el  libro actual.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Consultas y conexiones",
+  "Herramienta": "Consultas y conexiones",
+  "Comando": "Sin comando",
+  "Descripción": "Administración de las conexiones en este libro.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Consultas y conexiones",
+  "Herramienta": "Propiedades",
+  "Comando": "Sin comando",
+  "Descripción": "Establezca la manera en que se actualizaran los valores de las celdas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Consultas y conexiones",
+  "Herramienta": "Editar vínculos",
+  "Comando": "Sin comando",
+  "Descripción": "Muestra los vínculos a los que esta vinculada la hoja actual.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Ordenar y filtrar",
+  "Herramienta": "Ordenar de menor a mayor",
+  "Comando": "Sin comando",
+  "Descripción": null,
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Ordenar y filtrar",
+  "Herramienta": "Ordenar de mayor a menor",
+  "Comando": "Sin comando",
+  "Descripción": null,
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Ordenar y filtrar",
+  "Herramienta": "Busca valores ordenando los datos",
+  "Comando": "Sin comando",
+  "Descripción": null,
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Ordenar y filtrar",
+  "Herramienta": "Filtro",
+  "Comando": "Ctrl + Máyus + L",
+  "Descripción": "Activa el filtrado de la celda seleccionada.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Ordenar y filtrar",
+  "Herramienta": "Borrar",
+  "Comando": "Sin comando",
+  "Descripción": "Borra el filtro.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Ordenar y filtrar",
+  "Herramienta": "Volver a aplicar",
+  "Comando": "Sin comando",
+  "Descripción": "Vuelve a aplicar el filtro anterior.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Ordenar y filtrar",
+  "Herramienta": "Avanzadas",
+  "Comando": "Sin comando",
+  "Descripción": "Opciones de filtrado para datos complejos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Herramientas de datos",
+  "Herramienta": "Texto en columnas",
+  "Comando": "Sin comando",
+  "Descripción": "Divide el contenido de una columna con texto en varias columnas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Herramientas de datos",
+  "Herramienta": "Relleno rápido",
+  "Comando": "Ctrl + Máyus + E",
+  "Descripción": "Rellena automáticamente los valores, seleccionando un pequeño un ejemplo de como debería comportarse.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Herramientas de datos",
+  "Herramienta": "Quitar duplicados",
+  "Comando": "Sin comando",
+  "Descripción": "Elimina las filas duplicadas de una hoja.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Herramientas de datos",
+  "Herramienta": "Validación de datos",
+  "Comando": "Sin comando",
+  "Descripción": "Limite los tipos de datos que puede admitir una celda.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Herramientas de datos",
+  "Herramienta": "Consolidar",
+  "Comando": "Sin comando",
+  "Descripción": "Consolide un rango de datos distintos y los resume.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Herramientas de datos",
+  "Herramienta": "Relaciones",
+  "Comando": "Sin comando",
+  "Descripción": "Crea o editar las relaciones entre tablas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Herramientas de datos",
+  "Herramienta": "Ventana de Power Pivot",
+  "Comando": "Sin comando",
+  "Descripción": "Preparar los datos para trabajar con la herramienta de Power Viot.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Previsión",
+  "Herramienta": "Análisis de hipótesis",
+  "Comando": "Sin comando",
+  "Descripción": "Nos ayuda a el análisis de hipótesis probando diferentes datos y escenarios.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Previsión",
+  "Herramienta": "Previsión",
+  "Comando": "Sin comando",
+  "Descripción": "Crea una nueva hoja de cálculo para predecir la tendencia de los datos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Esquema",
+  "Herramienta": "Agrupar",
+  "Comando": "Máyus + Alt + Flecha derecha",
+  "Descripción": "Agrupa automáticamente filas o columnas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Esquema",
+  "Herramienta": "Desagrupar",
+  "Comando": "Máyus + Alt + Flecha izquierda",
+  "Descripción": "Desagrupa automáticamente filas o columnas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Datos",
+  "Categoría": "Esquema",
+  "Herramienta": "Subtotal",
+  "Comando": "Sin comando",
+  "Descripción": "Calcula rápidamente totales y subtotales de una fila de datos relacionados.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Revisión",
+  "Herramienta": "Ortografía",
+  "Comando": "F7",
+  "Descripción": "Revisa errores ortográficos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Revisión",
+  "Herramienta": "Sinónimos",
+  "Comando": "Sin comando",
+  "Descripción": "Recomienda sinónimos.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Revisión",
+  "Herramienta": "Estadísticas del libro",
+  "Comando": "Sin comando",
+  "Descripción": "Cuenta las celdas, filas, y columnas del libro.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Accesibilidad",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Más herramientas de accesibilidad.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Datos",
+  "Herramienta": "Búsqueda inteligente",
+  "Comando": "Sin comando",
+  "Descripción": "Busca definiciones, imágenes y otros recursos desde internet.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Idiomas",
+  "Herramienta": "Traducir",
+  "Comando": "Alt + Máyus + F7",
+  "Descripción": "Traducir el texto seleccionado a otros idiomas.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Comentarios",
+  "Herramienta": null,
+  "Comando": "Máyus + F2",
+  "Descripción": "Inserte comentarios sobre la celda seleccionada.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Proteger",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Proteja celdas, filas, columnas, hojas o todo el libro estableciendo una contraseña.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ },
+ {
+  "CategoryItem": "Revisar",
+  "Categoría": "Entrada de lápiz",
+  "Herramienta": null,
+  "Comando": "Sin comando",
+  "Descripción": "Oculta las entradas de lápiz.",
+  "img":"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
+ }
+]

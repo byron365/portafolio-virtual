@@ -1,0 +1,895 @@
+[
+    {
+        "Categoria":"Fecha y hora",
+        "Funciones":[
+            {
+                "Titulo": "AHORA()",
+                "Descripcion":"Devuelve la fecha y hora actuales con formato de fechas y hora. La hora y fecha depende de la hora del ordenador. ",
+                "Argumentos":"Sin argumentos"
+            },
+            {
+                "Titulo": "AÑO(Número de serie)",
+                "Descripcion": "Devuelve el año como número entero en un rango desde 1900-9999.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número de serie",
+                        "Descripcion":"es un número en el código de fecha y hora usado por Excel, ejemplo (20/10/2010) devuelve 2010."
+                    }
+                ]
+            },
+            {
+                "Titulo": "DIA((Número de serie)",
+                "Descripcion":"), Devuelve el día del mes con un número entero de 1 a 31.",
+                "Argumentos":[
+                    {
+                        "Titulo":"(Número de serie",
+                        "Descripcion":"Es un número en el código de fecha y hora usado por Excel, ejemplo (20/10/2010) devuelve 20"
+                    }
+                ]
+            },
+            {
+                "Titulo": "DIA.LAB (Fecha inicial; días; vacaciones)",
+                "Descripcion":"Devuelve el número de serie de la fecha antes o después de un número especifico de días laborales.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"EL número de serie que representa la fecha inicial ejemplo (20/4/2012)."
+                    },
+                    {
+                        "Titulo":"Días",
+                        "Descripcion":"Es el número de días laborales antes o después de la fecha inicial."
+                    },
+                    {
+                        "Titulo":"Vacaciones",
+                        "Descripcion":"Es una matriz opcional de uno o varios días de fecha de serie que se excluyen del calendario laboral, como días feriados."
+                    }
+                ]
+            },
+            {
+                "Titulo": "DIA.LAB.INTL(fecha inicial; días; fin de semana; días no laborables)",
+                "Descripcion":"Devuelve el número de serie de la fecha anterior o posterior a un número especificado en días laborales con parámetros de fin de semana personalizados.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"Número de fecha de serie que representa la fecha de comienzo ejemplo (20/4/2012)."
+                    },
+                    {
+                        "Titulo":"Días",
+                        "Descripcion":"Es el número de días laborales antes o después de la fecha inicial."
+                    },
+                    {
+                        "Titulo":"Fin de semana",
+                        "Descripcion":"Es un número o cadena que especifica cuando tienen lugar los fines de semana."
+                    },
+                    {
+                        "Titulo":"Días no laborales",
+                        "Descripcion":"Es una matriz opcional de uno o varios días de fecha de serie que se excluyen del calendario laboral, como días feriados."
+                    }
+                ]
+            },
+            {
+                "Titulo": "DIAS (Fecha inicial; fecha final)",
+                "Descripcion":"Devuelve la cantidad de días entre las dos fechas.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"Número de fecha inicial en formato serie."
+                    },
+                    {
+                        "Titulo":"Fecha final",
+                        "Descripcion":"Número de fecha inicial en formato serie."
+                    }
+                ]
+            },
+            {
+                "Titulo": "DIAS.LAB (fecha inicial; fecha final; vacaciones)",
+                "Descripcion":"Devuelve el número total de días laborales entre dos fechas.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"Número de fecha inicial en formato serie."
+                    },
+                    {
+                        "Titulo":"Fecha final",
+                        "Descripcion":"Número de fecha inicial en formato serie."
+                    },
+                    {
+                        "Titulo":"Vacaciones",
+                        "Descripcion":"Es un conjunto opcional de uno o varios números de fecha serie para excluir del calendario laboral, como días libres o días feriados."
+                    }
+                ]
+            },
+            {
+                "Titulo": "DIAS.LAB.INTL(fecha inicial; fecha final; fin de semana; días no laborales)",
+                "Descripcion":"Devuelve el número de días laborales completos entre dos fechas con parámetros de fin de semana personalizados.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"Número de fecha inicial en formato serie"
+                    },
+                    {
+                        "Titulo":"Fecha final",
+                        "Descripcion":"Número de fecha inicial en formato serie"
+                    },
+                    {
+                        "Titulo":"Fin de semana",
+                        "Descripcion":"Es un número o una cadena que especifica cuando tienen lugar los fines de semana."
+                    },
+                    {
+                        "Titulo":"Días no laborales",
+                        "Descripcion":"Es un conjunto opcional de uno o varios números de fecha serie para excluir del calendario laboral, como días libres o días feriados."
+                    }
+
+                ]
+            },
+            {
+                "Titulo": "DIAS360(fecha inicial; fecha final; Método):",
+                "Descripcion":"Calcula el número de días entre dos fechas basándose en un año de 360 días con doce meses de 30 días.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"Número de fecha inicial en formato serie"
+                    },
+                    {
+                        "Titulo":"Fecha final",
+                        "Descripcion":"Número de fecha inicial en formato serie"
+                    },
+                    {
+                        "Titulo":"Método",
+                        "Descripcion":"Para método (EE: UU NASD) = FALSO u omitido, para europeo = VERDADERO."
+                    }
+                ]
+            },
+            {
+                "Titulo": "DIASSEM (#_DE_SERIE; TIPO)",
+                "Descripcion":"Devuelve un número de 1 a 7 que identifica el día de la semana.",
+                "Argumentos":[
+                    {
+                        "Titulo":"#_de_serie",
+                        "Descripcion":"Número de serie de una fecha."
+                    },
+                    {
+                        "Titulo":"Tipo",
+                        "Descripcion":"Para (domingo=1 a sábado = 7) use 1, para (lunes=1 a domingo=7) use 2, para (lunes = 0 a domingo = 6) use 3."
+                    }
+                ]
+            },
+            {
+                "Titulo": "FECHA (año; mes; día)",
+                "Descripcion":"Devuelve el número que representa la fecha y hora de Excel.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Año",
+                        "Descripcion":"Es un número entre 1900 o 1904 hasta 9999."
+                    },
+                    {
+                        "Titulo":"Mes",
+                        "Descripcion":"Es un número entre 1 hasta 12."
+                    },
+                    {
+                        "Titulo":"Dia",
+                        "Descripcion":"Es un número entre 1 a 31."
+                    }
+                ]
+            },
+            {
+                "Titulo": "FECHA.MES (fecha inicial; meses)",
+                "Descripcion":"Devuelve en formato fecha, el número de meses antes o después de la fecha inicial.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"Es un número de fecha de serie que representa la fecha inicial."
+                    },
+                    {
+                        "Titulo":"Meses",
+                        "Descripcion":"Es el número de meses antes o después de la fecha inicial"
+                    }
+                ]
+            },
+            {
+                "Titulo": "FECHANUMERO (Texto de fecha)",
+                "Descripcion":"Convierte una fecha en formato texto en un número que representa en código de fecha y hora de Excel.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto de fecha",
+                        "Descripcion":"Texto que representa una fecha."
+                    }
+                ]
+            },
+            {
+                "Titulo": "FIN.MES (fecha inicial; meses)",
+                "Descripcion":"Devuelve el número de serie del último día del mes antes o después del número especificado de meses.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"Es la fecha en formato serie inicial."
+                    },
+                    {
+                        "Titulo":"Meses",
+                        "Descripcion":"El número de meses antes o después de la fecha inicial."
+                    }
+                ]
+            },
+            {
+                "Titulo": "FRAC.AÑO(fecha inicial; fecha final; Base)",
+                "Descripcion":"Devuelve la fracción del año que representa el número de días completos entre la fecha inicial y la fecha final.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha inicial",
+                        "Descripcion":"Fecha de inicio en formato serie."
+                    },
+                    {
+                        "Titulo":"Fecha final",
+                        "Descripcion":"Fecha final en formato serie."
+                    },
+                    {
+                        "Titulo":"Base",
+                        "Descripcion":"Determina en qué tipo de base deben ser contados los días."
+                    }
+                ]
+            },
+            {
+                "Titulo": "HORA(#_de_serie)",
+                "Descripcion":"Devuelve la hora como un número de 0 (12:00 a.m.) a 23 (11:00 p.m.).",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número de serie",
+                        "Descripcion":"Número en formato hora de Excel o texto ejemplo (16:48:01)."
+                    }
+                ]
+            },
+            {
+                "Titulo": "HORANUMERO (Texto de hora)",
+                "Descripcion":"Convierte una hora de texto en un número de serie de Excel, un número de 0(12:00:00 a.m.) a 0.999988426 (11:59:59 p.m.).",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto de hora",
+                        "Descripcion":"Es una cadena de texto que indica la hora en cualquiera de los formatos de hora de Excel."
+                    }
+                ]
+            },
+            {
+                "Titulo": "HOY ()",
+                "Descripcion":"Devuelve la fecha actual con formato fecha, la fecha corresponde a la del ordenador.",
+                "Argumentos": "Sin argumentos"
+            },
+            {
+                "Titulo": "ISO.NUM.DE.SEMANA(fecha)",
+                "Descripcion":"Devuelve el número de semana ISO para una fecha determinada.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Fecha",
+                        "Descripcion":"Es el código de fecha y hora en formato Serie."
+                    }
+                ]
+            },
+            {
+                "Titulo": "MES (Número de serie)",
+                "Descripcion":"Devuelve el mes, un número entero de 1 (enero) a 12(diciembre).",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número de serie",
+                        "Descripcion":"Es un número de formato serie de fecha y hora."
+                    }
+                ]
+            },
+            {
+                "Titulo": "MINUTO (Número de serie)",
+                "Descripcion":"Devuelve un número de 0 a 59.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número de serie",
+                        "Descripcion":"Es un número en el código de fecha y hora."
+                    }
+                ]
+            },
+            {
+                "Titulo": "NSHORA (Hora; Minuto; Segundo)",
+                "Descripcion":"Convierte horas, minutos y segundos en datos como número de serie de Excel.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Hora",
+                        "Descripcion":"Número de 0 a 23."
+                    },
+                    {
+                        "Titulo":"Minuto",
+                        "Descripcion":"Número entre 0 a 59."
+                    },
+                    {
+                        "Titulo":"Segundo",
+                        "Descripcion":"Número entre 0 a 59."
+                    }
+                ]
+            },
+            {
+                "Titulo": "NUM.DE.SEMANA(número de serie; tipo devuelto)",
+                "Descripcion":"Devuelve el número de semanas en el año.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número de serie",
+                        "Descripcion":"Código de fecha y hora en formato serie."
+                    },
+                    {
+                        "Titulo":"Tipo devuelto",
+                        "Descripcion":"Es un número (1 o 2) que determine el tipo de valor devuelto."
+                    }
+                ]
+            },
+            {
+                "Titulo": "SEGUNDO (Número de serie)",
+                "Descripcion":"Devuelve el segundo en un número entre 0 y 59.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número de serie",
+                        "Descripcion":"Es un número en formato serie de la fecha y hora."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Categoria":"Texto",
+        "Funciones":[
+            {
+                "Titulo": "CARACTER(Número)",
+                "Descripcion":"Devuelve el carácter especificado por el número de código establecido por el pc.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número",
+                        "Descripcion":"Es un número entre 1 y 255 que especifica el carácter deseado."
+                    }
+                ]
+            },
+            {
+                "Titulo": "CODIGO(Texto)",
+                "Descripcion":"Devuelve el número de código del primer carácter del texto.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es texto del que se desea obtener el código del primer carácter."
+                    }
+                ]
+            },
+            {
+                "Titulo": "CONCAT (Texto 1; Texto2; Texto3…)",
+                "Descripcion":"Concatena una lista de cadenas de texto máximo de cadenas 254.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Cadena de texto la cual se unirá a otras."
+                    }
+                ]
+            },
+            {
+                "Titulo": "DECIMAL (Número; Decimales; No separar millares)",
+                "Descripcion":"Redondea un el número ingresado y lo devuelve como texto o sin comas.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número",
+                        "Descripcion":"Es el número que se desea redondear o convertir a texto."
+                    },
+                    {
+                        "Titulo":"Decimales",
+                        "Descripcion":"Es el número de decimales que se tomaran en cuenta, si se omite se colocaran 2."
+                    },
+                    {
+                        "Titulo":"No separar millares",
+                        "Descripcion":"Para no presentar comas en el texto (VERDADERO), de lo contrario (FALSO)."
+                    }
+                ]
+            },
+            {
+                "Titulo": "DERECHA (Texto; Número de caracteres)",
+                "Descripcion":"Devuelve el número especificado de caracteres al final del texto.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es la cadena de texto que contiene los caracteres que se desea extraer."
+                    },
+                    {
+                        "Titulo":"Número de caracteres",
+                        "Descripcion":"Especifica el número de caracteres que se desea extraer, si se omite se asume 1."
+                    }
+                ]
+            },
+            {
+                "Titulo": "ENCONTRAR (Texto buscado; Dentro del texto; número inicial)",
+                "Descripcion":"Devuelve la posición inicial de una cadena de texto dentro de otra cadena de texto. (Distingue mayúsculas y minúsculas).",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto buscado",
+                        "Descripcion":"Es el texto que se desea encontrar."
+                    },
+                    {
+                        "Titulo":"Dentro del texto",
+                        "Descripcion":"Es el texto donde se buscará el texto deseado."
+                    },
+                    {
+                        "Titulo":"Número inicial",
+                        "Descripcion":"Especifica el carácter a partir del cual se iniciará la búsqueda si se omite se asume 1."
+                    }
+                ]
+            },
+            {
+                "Titulo": "ESPACIOS (Texto)",
+                "Descripcion":"Quita todos los espacios del texto excepto los espacios individuales entre palabras.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es el texto del cual se desea quitar los espacios."
+                    }
+                ]
+            },
+            {
+                "Titulo": "EXTRAE (Texto; Posición inicial; Número de caracteres)",
+                "Descripcion":"Devuelve los caracteres del centro de una cadena de texto, dada un posición y longitud inicial.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es la cadena de texto de la cual se desea extraer los caracteres."
+                    },
+                    {
+                        "Titulo":"Posición inicial",
+                        "Descripcion":"Es la posición del primer carácter que se desea extraer del texto, se comienza por 1."
+                    },
+                    {
+                        "Titulo":"Número de caracteres",
+                        "Descripcion":"Especifica el número de caracteres de texto que se debe devolver."
+                    }
+                ]
+            },
+            {
+                "Titulo": "HALLAR (Texto buscado; Dentro del texto; Número inicial)",
+                "Descripcion":"Devuelve el número de caracteres en el que se encuentran un carácter o una cadena de texto en particular, de izquierda a derecha (No distingue entre minúsculas y mayúsculas).",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto buscado",
+                        "Descripcion":"Es el texto que se desea encontrar."
+                    },
+                    {
+                        "Titulo":"Dentro del texto",
+                        "Descripcion":"Es el texto que sea desea encontrar dentro del texto buscado."
+                    },
+                    {
+                        "Titulo":"Número inicial",
+                        "Descripcion":"Es el número inicial desde donde se desea iniciar la búsqueda contando de izquierda a derecha."
+                    }
+                ]
+            },
+            {
+                "Titulo": "IGUAL (Texto 1; Texto 2)",
+                "Descripcion":"Comprueba si dos cadenas de texto son exactamente iguales, devuelve VERDADERO o FALSO (Distingue entre minúsculas y mayúsculas).",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto 1",
+                        "Descripcion":"Primera cadena de texto."
+                    },
+                    {
+                        "Titulo":"Texto 2",
+                        "Descripcion":"Segunda cadena de texto."
+                    }
+                ]
+            },
+            {
+                "Titulo": "IZQUIERDA (Texto; Número de caracteres)",
+                "Descripcion":"Devuelve el número especificado de caracteres del principio de una cadena de texto.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es la cadena de texto que contiene los caracteres que deseas extraer."
+                    },
+                    {
+                        "Titulo":"Número de caracteres",
+                        "Descripcion":"Especifica el número de caracteres que se desea que se extraiga, si se omite se asume 1."
+                    }
+                ]
+            },
+            {
+                "Titulo": "LARGO(Texto)",
+                "Descripcion":"Devuelve el número de caracteres de una cadena de texto.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es el texto cuya longitud se desea conocer."
+                    }
+                ]
+            },
+            {
+                "Titulo": "LET (Nombre 1; Valor 1; Calculo o nombre 2; Valor 2…)",
+                "Descripcion":"Asigna resultados de cálculo a los nombres. Es útil para almacenar cálculos intermedios y valores, definiendo nombres en una formula. Estos nombres solo se aplican en el ámbito de la función.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Nombre 1",
+                        "Descripcion":"Nombre o calculo que puede usar todos los nombres."
+                    },
+                    {
+                        "Titulo":"Valor 1",
+                        "Descripcion":"Valor asociado con el nombre."
+                    }
+                ]
+            },
+            {
+                "Titulo": "LIMPIAR(Texto)",
+                "Descripcion":"Quita todos los caracteres no imprimibles del texto.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es cualquier texto de la cual se quitarán los caracteres no imprimibles."
+                    }
+                ]
+            },
+            {
+                "Titulo": "MATRIZATEXTO (Matriz; Formato)",
+                "Descripcion":"Convierte a texto una Matriz de datos.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Matriz",
+                        "Descripcion":"La matriz de datos."
+                    },
+                    {
+                        "Titulo":"Formato",
+                        "Descripcion":"Formato que tendrá el texto opcional."
+                    }
+                ]
+            },
+            {
+                "Titulo": "MAYUSC(Texto)",
+                "Descripcion":"Convierte una cadena de texto en mayúsculas.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es el texto que se desea convertir a mayúsculas."
+                    }
+                ]
+            },
+            {
+                "Titulo": "MINUSC(Texto)",
+                "Descripcion":"Convierte una cadena de texto en minúsculas.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Texto el cual se desea convertir."
+                    }
+                ]
+            },
+            {
+                "Titulo": "MONEDA (Número; Número de decimales)",
+                "Descripcion":"Convierte un número en texto usando formato de moneda.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número",
+                        "Descripcion":"Es el número en formato texto."
+                    },
+                    {
+                        "Titulo":"Número de decimales",
+                        "Descripcion":"El número de decimales que tendrá el resultado, si se omite serán 2."
+                    }
+                ]
+            },
+            {
+                "Titulo": "NOMPROPIO(Texto)",
+                "Descripcion":"Convierte la primera letra de cada palabra en mayúsculas y las demás en minúsculas.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Texto que se desea convertir."
+                    }
+                ]
+            },
+            {
+                "Titulo": "REEMPLAZAR (Texto original: Número Inicial; Número de caracteres; Texto nuevo)",
+                "Descripcion":"Reemplaza parte de una cadena de texto por otra.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto original",
+                        "Descripcion":"Texto que contiene el texto que se desea reemplazar."
+                    },
+                    {
+                        "Titulo":"Número inicial",
+                        "Descripcion":"Es la posición del carácter dentro del texto original que se desea reemplazar."
+                    },
+                    {
+                        "Titulo":"Número de Caracteres",
+                        "Descripcion":"El número de caracteres que se desea reemplazar."
+                    },
+                    {
+                        "Titulo":"Texto nuevo",
+                        "Descripcion":"El Texto que se usara para reemplazar."
+                    }
+
+                ]
+            },
+            {
+                "Titulo": "REPETIR (Texto; Número de veces)",
+                "Descripcion":"Repite el texto indicado un número determinado de veces.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es el texto que se desea repetir."
+                    },
+                    {
+                        "Titulo":"Número de veces",
+                        "Descripcion":"Cantidad de veces a repetir."
+                    }
+                ]
+            },
+            {
+                "Titulo": "SUSTITUIR (Texto; Texto original; texto nuevo; número de repeticiones)",
+                "Descripcion":"Reemplaza el texto existente con el nuevo texto en una cadena.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es el texto o referencia que contiene el texto que se desea cambiar."
+                    },
+                    {
+                        "Titulo":"Texto original",
+                        "Descripcion":"Es el texto que se desea sustituir."
+                    },
+                    {
+                        "Titulo":"Texto nuevo",
+                        "Descripcion":"Es el texto con el que se desea reemplazar el texto original."
+                    },
+                    {
+                        "Titulo":"Número de repeticiones",
+                        "Descripcion":"Especifica la aparición de texto original que se desea reemplazar, si se omite se reemplazara el texto en todas partes donde aparezca."
+                    }
+                ]
+            },
+            {
+                "Titulo": "T(Valor): ",
+                "Descripcion":"Comprueba si es un texto, devuelve el texto si lo es, si no devuelve comillas dobles.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Valor",
+                        "Descripcion":"Es el valor a comprobar."
+                    }
+                ]
+            },
+            {
+                "Titulo": "TEXTO (Valor; Formato)",
+                "Descripcion":"Convierte un texto, con un formato de número especifico.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Valor",
+                        "Descripcion":"Es un valor numérico, una formula que evalúa un valor numérico o una referencia."
+                    },
+                    {
+                        "Titulo":"Formato",
+                        "Descripcion":"Es un número en forma de texto del cuadro de formato de celda."
+                    }
+                ]
+            },
+            {
+                "Titulo": "TEXTOBAHT(Número)",
+                "Descripcion":"Convierte un número en texto baht.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número",
+                        "Descripcion":"Es un número que se desea convertir."
+                    }
+                ]
+            },
+            {
+                "Titulo": "UNICAR(Número)",
+                "Descripcion":"Devuelve el carácter Unicode al que se hace referencia el valor del número.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Número",
+                        "Descripcion":"Es el número Unicode que representa un carácter."
+                    }
+                ]
+            },
+            {
+                "Titulo": "UNICODE (Texto)",
+                "Descripcion":"Devuelve el número (punto de código) que corresponde al primer carácter del texto.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es el carácter del que quieres saber el valor Unicode."
+                    }
+                ]
+            },
+            {
+                "Titulo": "UNIRCADENAS (Delimitador; ignorar vacías; texto 1; texto 2…)",
+                "Descripcion":"Concatena una lista de cadenas de texto mediante una cadena o carácter delimitador.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Delimitador",
+                        "Descripcion":"Carácter o cadena que se inserta entre cada elemento de texto."
+                    },
+                    {
+                        "Titulo":"Ignorar cadenas",
+                        "Descripcion":"Si es VERDADERO ignora las celdas vacías."
+                    },
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Cadena de texto que se unirá."
+                    }
+                ]
+            },
+            {
+                "Titulo": "VALOR(Texto)",
+                "Descripcion":"Convierte un argumento de texto que representa un número en un número.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es el texto entre comillas o una referencia a una celda que contiene el texto que se desea convertir."
+                    }
+                ]
+            },
+            {
+                "Titulo": "VALOR.NUMERO(Texto; separador decimal; separador grupo)",
+                "Descripcion":"Convierte texto a número de manera independiente a la configuración regional.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Texto",
+                        "Descripcion":"Es la cadena que representa el número que quieres convertir."
+                    },
+                    {
+                        "Titulo":"Separador decimal",
+                        "Descripcion":"Es el carácter que se usa como separador decimal en la cadena."
+                    },
+                    {
+                        "Titulo":"Separador grupo",
+                        "Descripcion":"Es el carácter que se usa como el separador de un grupo en la cadena."
+                    }
+                ]
+            },
+            {
+                "Titulo": "VALORATEXTO(Valor; Formato)",
+                "Descripcion":"Devuelve una representación de texto de un valor.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Valor",
+                        "Descripcion":"El valor para representar como texto."
+                    },
+                    {
+                        "Titulo":"Formato",
+                        "Descripcion":"Formato del texto opcional."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Categoria":"Lógicas",
+        "Funciones":[
+            {
+                "Titulo": "CAMBIAR (Expresión; valor 1; Resultado 1; Predeterminado o valor 2; Resultado 2)",
+                "Descripcion":"Evalúa una expresión con una lista de valores y devuelve el resultado correspondiente al primer valor coincídete. Si no hay coincidencia, se devuelve un valor predeterminado opcional.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Expresión",
+                        "Descripcion":"Es la expresión que se va a evaluar."
+                    },
+                    {
+                        "Titulo":"Valor 1",
+                        "Descripcion":"Es un valor el cual se comparará con la expresión."
+                    },
+                    {
+                        "Titulo":"Predeterminado o valor 2",
+                        "Descripcion":"Es un valor que se comparara con la expresión luego del valor 1 (opcional)."
+                    },
+                    {
+                        "Titulo":"Resultado 2",
+                        "Descripcion":"Resultado que se devuelve si el valor correspondiente coincide con la expresión."
+                    }
+                ]
+            },
+            {
+                "Titulo": "FALSO (): ",
+                "Descripcion":"Devuelve el valor lógico Falso.",
+                "Argumentos":"Sin argumentos"
+            },
+            {
+                "Titulo": "NO (valor lógico): ",
+                "Descripcion":"Devuelve el valor lógico contrario al ingresado.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Valor lógico",
+                        "Descripcion":"Puede ser VERDADERO o FALSO."
+                    }
+                ]
+            },
+            {
+                "Titulo": "O (Valor lógico 1; Valor lógico 2)",
+                "Descripcion":"Comprueba si alguno de los argumentos es verdadero y retorna VERDADERO y devuelve FALSO si todos los argumentos son falsos.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Valor lógico 1",
+                        "Descripcion":"Puede ser verdadero o falso."
+                    },
+                    {
+                        "Titulo":"Valor lógico 2",
+                        "Descripcion":"Puede ser Verdadero o falso."
+                    }
+                ]
+            },
+            {
+                "Titulo": "SI (Prueba lógica; Valor si es verdadero;  Valor si es falso)",
+                "Descripcion":"Comprueba si la condición de prueba lógica se cumple y devuelve FALSO o VERDADERO depende del resultado de la comprobación.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Prueba lógica",
+                        "Descripcion":"Es cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO."
+                    },
+                    {
+                        "Titulo":"Valor si es verdadero",
+                        "Descripcion":"Es el valor que se devolverá si la prueba lógica es verdad si se omite devuelve verdadero, se pueden anidar otras funciones condicionales un máximo de 7."
+                    },
+                    {
+                        "Titulo":"Valor si es falso",
+                        "Descripcion":"Es el valor que devolverá si la prueba lógica es FALSO, si se omite devolverá falso."
+                    }
+                ]
+            },
+            {
+                "Titulo": "SI.CONJUNTO (Prueba lógica 1; Valor si es verdad 1; Prueba lógica 2; Valor si es verdad 2; prueba lógica 3…)",
+                "Descripcion":"Comprueba si se cumplen una o más condiciones y devuelve un valor correspondiente a la primera condición verdadera.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Prueba lógica",
+                        "Descripcion":"Es cualquier valor o expresión que se evalué y de como resultado VERDADERO o FALSO."
+                    },
+                    {
+                        "Titulo":"Valor si es verdadero",
+                        "Descripcion":"Es el valor devuelto si prueba lógica es VERDADERO o FALSO."
+                    }
+                ]
+            },
+            {
+                "Titulo": "SI.ERROR(Valor; Valor si es error)",
+                "Descripcion":"Devuelve valor si es error si la expresión es un error y el valor de la expresión no lo es.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Valor",
+                        "Descripcion":"Es cualquier valor, expresión o referencia."
+                    },
+                    {
+                        "Titulo":"Valor si es error",
+                        "Descripcion":"Cualquier valor, expresión o referencia."
+                    }
+                ]
+            },
+            {
+                "Titulo": "SI.ND(Valor; Valor si nd)",
+                "Descripcion":"Devuelve el valor que específicas, si la expresión se convierte en #N/A, de lo contrario devuelve el resultado de la expresión.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Valor",
+                        "Descripcion":"Es cualquier valor, expresión o referencia."
+                    },
+                    {
+                        "Titulo":"Valor si nd",
+                        "Descripcion":"Es cualquier valor, expresión o referencia."
+                    }
+                ]
+            },
+            {
+                "Titulo": "VERDADERO ():",
+                "Descripcion":"Devuelve el valor lógico VERDADERO.",
+                "Argumentos":"Sin argumentos"
+            },
+            {
+                "Titulo": "XO (Lógico 1; Lógico 2; Lógico 3…)",
+                "Descripcion":"Devuelve una Exclusive Or lógico de todos los argumentos.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Lógico",
+                        "Descripcion":"Son condiciones que pueden ser VERDADERAS o FALSAS."
+                    }
+                ]
+            },
+            {
+                "Titulo": "Y (Lógico 1; Lógico 2; Lógico 3…)",
+                "Descripcion":"Comprueba si todos los argumentos son VERDADEROS y devuelve VERDADERO.",
+                "Argumentos":[
+                    {
+                        "Titulo":"Lógico",
+                        "Descripcion":"Valor lógico que puede ser VERDADERO o FALSO."
+                    }
+                ]
+            }
+        ]
+    }
+]
