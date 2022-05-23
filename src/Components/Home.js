@@ -7,7 +7,7 @@ export const Home = () => {
       {/* encabezado */}
       <div className='encabezado'>
         <div className='imgCnt'>
-          <img src='./img/perfil.png' />
+          <img src='https://res.cloudinary.com/dfxizywkv/image/upload/v1653323276/img/perfil_eqohzz.png' />
           <h2>BAIRON JAFET PREZA ALAS</h2>
         </div>
 

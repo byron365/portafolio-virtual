@@ -29,7 +29,7 @@ export const Proyects = () => {
             en el futuro se irán añadiendo nuevas.
           </p>
 
-          <img src='/img/original.png'/>
+          <img src='https://res.cloudinary.com/dfxizywkv/image/upload/v1653323275/img/original_cmqwiu.png'/>
           <br/><br/>
           <h4>Características e implementaciones:</h4><br/>
           <p>
@@ -48,7 +48,7 @@ export const Proyects = () => {
               <li>Git: Para el manejo de versiones.</li>
               <li>Heroku: Plataforma en la cual se desplegó el contenedor con la aplicación. </li>
           </ul>
-          <img src='/img/futuro.png'/>
+          <img src='https://res.cloudinary.com/dfxizywkv/image/upload/v1653323275/img/futuro_nizfhm.png'/>
           <p style={{textAlign: 'center'}}><cite>(Resultado futuro), <a href='https://dlmp3-proyect.herokuapp.com/home' target='_blank'><strong>Resultado actual</strong></a> (puede demorar unos segundos al inicio).</cite></p>
         </div>
       </div>
