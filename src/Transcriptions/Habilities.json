@@ -1,0 +1,44 @@
+[
+    {
+        "titulo": "Microsoft Word",
+        "descripcion": "Capacidad de digitación y estructuración de reportes, documentación, trabajo colaborativo y análisis sintáctico, con el uso de la herramienta Microsoft Word.",
+        "icon":"fa-solid fa-file-word",
+        "level": "Intermedio-Avanzado",
+        "percent": 80
+    },
+    {
+        "titulo": "Microsoft Excel",
+        "descripcion": "Análisis de datos, importación de datos en archivos de texto, creación de tablas dinámicas, gráficos, análisis de datos y elaboración de reportes.",
+        "icon":"fa-solid fa-file-excel",
+        "level": "Intermedio",
+        "percent": 70
+    },
+    {
+        "titulo": "Microsoft PowerPoint",
+        "descripcion": "Creación de contenido visual por medio de diapositivas utilizando, animaciones, transiciones, gráficos, para la presentación del análisis de resultados.",
+        "icon":"fa-solid fa-file-powerpoint",
+        "level": "Intermedio-Avanzado",
+        "percent": 80
+    },
+    {
+        "titulo": "GIT",
+        "descripcion": "Creación de repositorios, ramas, trabajo colaborativo por medio de la herramienta de git.",
+        "icon":"fa-brands fa-git-alt",
+        "level": "Intermedio-Avanzado",
+        "percent": 80
+    },
+    {
+        "titulo": "GITHUB",
+        "descripcion": "Control de versiones en modo público y privado, trabajo colaborativo, despliegue de páginas con tecnología HTML5 puro o React Js por medio de GITHUB PAGES o HEROKU, configuración de dominios personalizados (DNS).",
+        "icon":"fa-brands fa-github",
+        "level": "Intermedio",
+        "percent": 70
+    },
+    {
+        "titulo": "REACT JS",
+        "descripcion": "Aprendizaje en curso, creación de sitios web single-page, uso Hooks e implementación de custom Hooks, functional-components, manejo de rutas con React-router, llamadas a APIs, creación de Rest APIs por medio de node js y el framework de express y el uso básico de Mongodb  y Postgresql como bases de datos relacional y no relacional.",
+        "icon":"fa-brands fa-react",
+        "level": "Básico-Intermedio",
+        "percent": 40
+    }
+]

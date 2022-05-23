@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { OffCanvas } from './OffCanvas'
+import { OffCanvas } from '../Components/OffCanvas'
 
 export const Table = ({info = {}, title}) => {
     let customTitle = title.replaceAll(' ','').replaceAll('.','').toLowerCase();
@@ -11,8 +11,7 @@ export const Table = ({info = {}, title}) => {
         img:"https://res.cloudinary.com/dfxizywkv/image/upload/v1652995857/no-example_jr4rrz.svg"
     })
     const handleBtn = (newData = {})=>{
-        setDatos(...datos, newData)
-        console.log(newData)
+        setDatos(newData)
     }
   return (
     <React.Fragment>
@@ -33,7 +32,7 @@ export const Table = ({info = {}, title}) => {
                                   <tr key={Date.now() + i + info.CategoryItem}>
                                     <td key={info.Categoría + Date.now() + i}>{info.Categoría}</td>
                                     <td key={info.Herramienta + Date.now() + i + 1}>
-                                        <button key={info.Herramienta} className="btn btnTool" onClick={()=> handleBtn({Herramienta:info.Herramienta, Comando:info.Comando, Descripcion:info.Descripción, img:info.img})} type="button" data-bs-toggle="offcanvas" data-bs-target={"#"+customTitle} aria-controls={customTitle}>
+                                        <button key={info.Herramienta} className="btn btnTool" onClick={()=> handleBtn(info)} type="button" data-bs-toggle="offcanvas" data-bs-target={"#"+customTitle} aria-controls={customTitle}>
                                             {info.Herramienta}
                                         </button>
                                     </td>

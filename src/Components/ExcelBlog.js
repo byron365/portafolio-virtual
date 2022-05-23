@@ -1,5 +1,5 @@
 import React  from 'react'
-import { BtnSlide } from './BtnSlide'
+//import { BtnSlide } from './BtnSlide'
 import { CategoryItem } from './CategoryItem'
 import comands from '../Transcriptions/comands-sp.json'
 import funciones from '../Transcriptions/funciones-sp.json'
@@ -14,7 +14,6 @@ export const ExcelBlog = () => {
 
   return (
     <div className='container' id='Inicio'>
-        <BtnSlide/>
         <div className='card mt-3'>
             <h2 className='txt-center'>Excel</h2>
 
