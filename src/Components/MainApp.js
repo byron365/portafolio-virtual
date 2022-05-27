@@ -15,7 +15,7 @@ export const MainApp = () => {
        <BrowserRouter>
             <Navbar/>
             <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/home' element={<Home/>}/>
                 <Route path='/excelnotes' element={<ExcelBlog/>}/>
                 <Route path='/proyectos' element={<Proyects/>}/>
             </Routes>

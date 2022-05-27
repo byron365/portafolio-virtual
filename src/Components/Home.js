@@ -18,9 +18,9 @@ export const Home = () => {
               Mecatrónica.<br />
               Me considero una persona
               responsable y puntual, con
-              ganas de aprenderder y
+              ganas de aprender y
               ganar experiencia. <br />
-              Autodidacta con habilidades en programación Front-end Español nativo.
+              Autodidacta con habilidades en programación Front-end
               y Back-end con tegnología
               en node-js y el uso de
               Office.</p>
