@@ -53,6 +53,17 @@ export const Home = () => {
             </div>
 
             <div>
+              <h4>CURSOS</h4>
+             <p>
+               * Curso de PostgreSQL - Platzi<br/>
+               * Curso Profesional de Git y GitHub - Platzi<br/>
+               * Curso de Introducción a Java SE - Platzi<br/>
+               * Curso de Introducción a la Terminal y Línea de Comandos - Platzi<br/>
+               
+              </p>  
+            </div>
+
+            <div>
               <h4>IDIOMA</h4>
               Inglés Básico-Intermedio con certificado A1 en Busuu McGraw Hill.<br/>
               Español nativo.

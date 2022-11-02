@@ -12,7 +12,7 @@ export const Navbar = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div className="navbar-nav">
-                      <Link to='/home' className="nav-link green-ligth transition" aria-current="page">Inicio</Link>
+                      <Link to='/' className="nav-link green-ligth transition" aria-current="page">Inicio</Link>
                       <Link to='/excelnotes' className="nav-link green-ligth transition">Notas de Excel</Link>
                       <Link to='/proyectos' className="nav-link green-ligth transition">Proyectos</Link>
                   </div>

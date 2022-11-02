@@ -186,7 +186,9 @@ small{
 }
 .personalInfo, .habilities{
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
+  width: 90%;
+  margin: auto;
   grid-gap: 1rem;
 }
 .personalInfo div, .habilities{
@@ -200,13 +202,7 @@ small{
 .habilities{
   grid-template-rows: repeat(2, auto);
 }
-.habilityItem h4 i[class = "fa-solid fa-file-word"],
-.habilityItem h4 i[class = "fa-solid fa-file-excel"],
-.habilityItem h4 i[class = "fa-solid fa-file-powerpoint"],
-.habilityItem h4 i[class = "fa-brands fa-git-alt"],
-.habilityItem h4 i[class = "fa-brands fa-github"],
-.habilityItem h4 i[class = "fa-brands fa-react"]{
-  color: blue;
+.habilityItem h4 i{
   font-size: 40px;
   margin-right:1rem;
 }
@@ -215,6 +211,8 @@ small{
 .habilityItem h4 i[class = "fa-brands fa-git-alt"]{color: orangered;}
 .habilityItem h4 i[class = "fa-brands fa-github"]{color: darkslategrey;}
 .habilityItem h4 i[class = "fa-brands fa-react"]{color: aqua;}
+.habilityItem h4 i[class = "fa-brands fa-node-js"]{color: rgb(75, 150, 75);}
+.habilityItem h4 i[class = "fa-solid fa-file-word"]{color:rgb(61, 61, 201);}
 .habilityItem h4{
   font-size: x-large;
   color: darkslategrey;

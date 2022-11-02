@@ -36,9 +36,24 @@
     },
     {
         "titulo": "REACT JS",
-        "descripcion": "Aprendizaje en curso, creación de sitios web single-page, uso Hooks e implementación de custom Hooks, functional-components, manejo de rutas con React-router, llamadas a APIs, creación de Rest APIs por medio de node js y el framework de express y el uso básico de Mongodb  y Postgresql como bases de datos relacional y no relacional.",
+        "descripcion": "Aprendizaje en curso, creación de sitios web single-page, uso Hooks e implementación de custom Hooks, functional-components, manejo de rutas con React-router, llamadas a APIs, creación de Rest APIs por medio de node js y el framework de express.",
         "icon":"fa-brands fa-react",
         "level": "Básico-Intermedio",
         "percent": 40
+    },
+    {
+        "titulo":"Node Js - Express",
+        "descripcion":"Desarrollo backend con NodeJs y el módulo expressJs, para la creación de rutas GET, POST, PUT y DELETE, uso de motores de plantillas como HandleBars para renderizar vistas HTML desde el servidor, creación de REST APIS, uso de JSON para el envío y procesamiento de los datos y la validación de formularios.",
+        "icon":"fa-brands fa-node-js",
+        "level":"Básico-Intermedio",
+        "percent":70
+    },
+    {
+        "titulo":"Bases de Datos",
+        "descripcion":"Uso de bases de datos relacionales PostgreSQL y MySql, Para la creación de tablas interrelacionadas definiendo sus entidades, atributos y restricciones, consultas DML para seleccionar, insertar, actualizar y eliminar registros.",
+        "icon":"fa-solid fa-database",
+        "level":"Básico-Intermedio",
+        "percent":40
+
     }
 ]
